@@ -92,6 +92,7 @@ public class CadastroDeAlunos extends JFrame {
 		contentPane.add(comboBox);
 		comboBox.addItem("Masculino");
 		comboBox.addItem("Feminino");
+		comboBox.setSelectedItem(null);
 		
 		lblDataDeNascimento = new JLabel("DATA DE NASCIMENTO :");
 		lblDataDeNascimento.setBounds(158, 115, 145, 20);
@@ -113,6 +114,7 @@ public class CadastroDeAlunos extends JFrame {
 		comboBox_1.addItem("Comprometido");
 		comboBox_1.addItem("Casado");
 		comboBox_1.addItem("Divorciado");
+		comboBox_1.setSelectedItem(null);
 		
 		lblEndereo = new JLabel("ENDERE\u00C7O :");
 		lblEndereo.setBounds(10, 177, 97, 20);
@@ -173,6 +175,7 @@ public class CadastroDeAlunos extends JFrame {
 		comboBox_2.addItem("11.1");
 		comboBox_2.addItem("11.2");
 		comboBox_2.addItem("11.3");
+		comboBox_2.setSelectedItem(null);
 		
 		lblJFezCurso = new JLabel("J\u00C1 FEZ CURSO NA UTD ? :");
 		lblJFezCurso.setBounds(10, 369, 195, 20);
@@ -183,6 +186,7 @@ public class CadastroDeAlunos extends JFrame {
 		contentPane.add(comboBox_3);
 		comboBox_3.addItem("sim");
 		comboBox_3.addItem("não");
+		comboBox_3.setSelectedItem(null);
 		
 		lblQuantos = new JLabel("QUANTOS :");
 		lblQuantos.setBounds(215, 369, 80, 20);
